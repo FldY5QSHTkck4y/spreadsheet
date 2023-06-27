@@ -1,8 +1,8 @@
 {
   "name": "lele-spreadsheet",
   "version": "0.1.4",
-  "main": "core/components.js",
-  "module": "core/components.esm.js",
+  "main": "core/gfxComponents.js",
+  "module": "core/gfxComponents.esm.js",
   "types": "gfxComponents.d.ts",
   "engines": {
     "node": ">=16.0.0 <17.0.0"
@@ -24,7 +24,7 @@
     "build": "react-scripts build",
     "rollup": "npx rollup -c",
     "deploy:np": "npx np",
-    "deploy": "npm publish dist --access public",
+    "deploy": "npm publish ./dist --access public",
     "test": "react-scripts test --watchAll=false",
     "dev:test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -71,7 +71,7 @@
   "np": {
     "yarn": false,
     "contents": "dist",
-    "publish": true
+    "publish": false
   },
   "publishConfig": {
     "access": "public"
