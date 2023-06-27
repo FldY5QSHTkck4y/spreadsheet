@@ -1,5 +1,5 @@
 {
-  "name": "gfx-spreadsheet",
+  "name": "@lele/spreadsheet",
   "version": "0.1.0",
   "private": true,
   "main": "core/components.js",
@@ -69,5 +69,8 @@
   "np": {
     "yarn": false,
     "contents": "dist"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
