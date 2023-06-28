@@ -1,3 +1,5 @@
+/* eslint-disable testing-library/no-dom-import */
+/* eslint-disable testing-library/no-node-access */
 import React from 'react';
 import '@testing-library/jest-dom';
 import userEvent from '@testing-library/user-event';

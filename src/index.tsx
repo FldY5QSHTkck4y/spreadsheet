@@ -3,7 +3,8 @@ import * as ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-// import './react-grid-styles.css';
+
+// import './styles.css';
 import '@silevis/reactgrid/styles.css';
 
 const root = ReactDOM.createRoot(
